@@ -1,9 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
 .calculator-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 600px;
+    width: 500px;
+    background-color: rgb(212, 212, 212);
+    border: 2px solid;
+    border-color: rgb(5, 5, 5);
 }
 
 .panel-div{
@@ -29,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     width: 400px;
 }
 
@@ -39,20 +50,25 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 300px;
+    height: 350px;
     width: 300px;
 }
 
 
 .num-button{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    border-color: black;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    font-weight: bold;
 }
 
 .operation-div{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 350px;
     width: 100px;
 }
 
@@ -60,4 +76,6 @@
     height: 100px;
     width: 100px;
     background-color: lightblue;
+    border-radius: 5%;
+    font-weight: bold;
 }
